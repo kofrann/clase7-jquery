@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo Jquery</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/01-selectores.js"></script>
+    <style>
+        .zebra{
+            border: 5px dashed black;
+        }
+        .grande{
+            font-size: 30px;
+        }
+
+        .margen-superior{
+            display: block;
+            margin-top: 45px;
+            
+        }
+        .resaltado{
+            border-bottom:  2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendiendo Jquery</h1>
+    <ul>
+        <li><a href="https://www.google.com" title="google">Ir a Google</a></li>
+        <li><a href="https://www.facebook.com" title="facebook">Ir a Facebook</a></li>
+    </ul>
+    <p id="rojo" class="sin_borde">  Ejercicios de Jquery  </p>
+    <p id="amarillo" class="zebra">Practicando con Selectores</p>
+    <p id="verde" class="sin_borde" >Quiero ser un parrafo Verde</p>
+    <p class="zebra">Soy un Parrafo Blanco</p>
+    <div id="caja">
+        <p>Hola soy una caja</p>
+        <ul>
+            <li>Elemento 1</li>
+            <li id="elemento2">Elemento 2</li>
+        </ul>
+        <span class="resaltado">Soy un Span</span>
+    </div>
+
+</body>
+</html>
